@@ -1,0 +1,28 @@
+{
+    "name": "xiomara-producciones",
+    "version": "1.0.0",
+    "description": "Primera prueba de pagina de administración de Xiomara Producciones",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/server",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pruebas": "nodemon server/server -e js,hbs,html,css,scss"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShadePrizrak/xiomara-producciones.git"
+    },
+    "author": "César Mariluz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ShadePrizrak/xiomara-producciones/issues"
+    },
+    "homepage": "https://github.com/ShadePrizrak/xiomara-producciones#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "colors": "^1.3.2",
+        "express": "^4.16.3",
+        "hbs": "^4.0.1",
+        "path": "^0.12.7"
+    }
+}
